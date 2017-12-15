@@ -14,10 +14,7 @@
 					"raw": "https://{{domain}}/api/raadplegen/v0.2/activity?subject=http%3A%2F%2F{{domain}}%2Fid%2Factivity%2F2017-12-15T08%3A08%3A26.538%2B01%3A00Upload",
 					"protocol": "https",
 					"host": [
-						"catalogus",
-						"{{environment}}",
-						"kadaster",
-						"nl"
+						"{{domain}}"
 					],
 					"path": [
 						"api",
@@ -77,10 +74,7 @@
 					"raw": "https://{{domain}}/api/raadplegen/v0.2/agent?subject=http://{{domain}}/id/agent/tomcatUser",
 					"protocol": "https",
 					"host": [
-						"catalogus",
-						"{{environment}}",
-						"kadaster",
-						"nl"
+						"{{domain}}"
 					],
 					"path": [
 						"api",
@@ -140,10 +134,7 @@
 					"raw": "https://{{domain}}/api/raadplegen/v0.2/concepten",
 					"protocol": "https",
 					"host": [
-						"catalogus",
-						"{{environment}}",
-						"kadaster",
-						"nl"
+						"{{domain}}"
 					],
 					"path": [
 						"api",
@@ -204,10 +195,7 @@
 					"raw": "https://{{domain}}/api/raadplegen/v0.2/concept?subject=http%3A%2F%2Fcontent.tst.omgevingswet.overheid.nl%2Fid%2Fconcept%2FAfvoeren",
 					"protocol": "https",
 					"host": [
-						"catalogus",
-						"{{environment}}",
-						"kadaster",
-						"nl"
+						"{{domain}}"
 					],
 					"path": [
 						"api",
@@ -267,10 +255,7 @@
 					"raw": "https://{{domain}}/api/raadplegen/v0.2/collectie?subject=http%3A%2F%2Fcontent.tst.omgevingswet.overheid.nl%2Fid%2Fcollection%2FWater",
 					"protocol": "https",
 					"host": [
-						"catalogus",
-						"{{environment}}",
-						"kadaster",
-						"nl"
+						"{{domain}}"
 					],
 					"path": [
 						"api",
