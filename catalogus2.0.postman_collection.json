@@ -206,7 +206,7 @@
 					"query": [
 						{
 							"key": "subject",
-							"value": "http%3A%2F%2F"{{content_domain}}"%2Fid%2Fconcept%2FAfvoeren",
+							"value": "http%3A%2F%2F{{content_domain}}%2Fid%2Fconcept%2FAfvoeren",
 							"equals": true,
 							"description": ""
 						}
