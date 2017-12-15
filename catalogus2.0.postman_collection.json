@@ -1,0 +1,327 @@
+{
+	"variables": [],
+	"info": {
+		"name": "catalogus2.0",
+		"_postman_id": "8f85737b-07a3-3404-4115-b047d81f9adb",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://catalogus.test.kadaster.nl/api/raadplegen/v0.2/activity",
+			"request": {
+				"url": {
+					"raw": "https://catalogus.test.kadaster.nl/api/raadplegen/v0.2/activity?subject=http%3A%2F%2Fcatalogus.test.kadaster.nl%2Fid%2Factivity%2F2017-12-15T08%3A08%3A26.538%2B01%3A00Upload",
+					"protocol": "https",
+					"host": [
+						"catalogus",
+						"test",
+						"kadaster",
+						"nl"
+					],
+					"path": [
+						"api",
+						"raadplegen",
+						"v0.2",
+						"activity"
+					],
+					"query": [
+						{
+							"key": "subject",
+							"value": "http%3A%2F%2Fcatalogus.test.kadaster.nl%2Fid%2Factivity%2F2017-12-15T08%3A08%3A26.538%2B01%3A00Upload",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic Z3JpZHRlYW06SW50ZXJuYWxVc2U=",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<toestand xmlns=\"http://www.overheid.nl/namespaces/stop#\" xmlns:thes=\"http://purl.org/iso25964/skos-thes#\">\r\n\t<begrip about=\"http://ldt/catalogus/dso/id/concept/barrygebouw\">\r\n        <term>barrygebouw</term>\r\n        <definitie>constructie van enige omvang van hout lkj, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct of indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren, met inbegrip van de daarvan deel uitmakende bouwwerkgebonden installaties</definitie>\r\n\t</begrip>\r\n</toestand>\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://catalogus.test.kadaster.nl/api/raadplegen/v0.2/agent",
+			"request": {
+				"url": {
+					"raw": "https://catalogus.test.kadaster.nl/api/raadplegen/v0.2/agent?subject=http://catalogus.test.kadaster.nl/id/agent/tomcatUser",
+					"protocol": "https",
+					"host": [
+						"catalogus",
+						"test",
+						"kadaster",
+						"nl"
+					],
+					"path": [
+						"api",
+						"raadplegen",
+						"v0.2",
+						"agent"
+					],
+					"query": [
+						{
+							"key": "subject",
+							"value": "http://catalogus.test.kadaster.nl/id/agent/tomcatUser",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic Z3JpZHRlYW06SW50ZXJuYWxVc2U=",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<toestand xmlns=\"http://www.overheid.nl/namespaces/stop#\" xmlns:thes=\"http://purl.org/iso25964/skos-thes#\">\r\n\t<begrip about=\"http://ldt/catalogus/dso/id/concept/barrygebouw\">\r\n        <term>barrygebouw</term>\r\n        <definitie>constructie van enige omvang van hout lkj, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct of indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren, met inbegrip van de daarvan deel uitmakende bouwwerkgebonden installaties</definitie>\r\n\t</begrip>\r\n</toestand>\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://catalogus.test.kadaster.nl/api/raadplegen/v0.2/concepten",
+			"request": {
+				"url": {
+					"raw": "https://catalogus.test.kadaster.nl/api/raadplegen/v0.2/concepten",
+					"protocol": "https",
+					"host": [
+						"catalogus",
+						"test",
+						"kadaster",
+						"nl"
+					],
+					"path": [
+						"api",
+						"raadplegen",
+						"v0.2",
+						"concepten"
+					],
+					"query": [
+						{
+							"key": "subject",
+							"value": "http%3A%2F%2Fcatalogus.test.kadaster.nl%2Fid%2Factivity%2F2017-12-15T08%3A08%3A26.538%2B01%3A00Upload",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic Z3JpZHRlYW06SW50ZXJuYWxVc2U=",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<toestand xmlns=\"http://www.overheid.nl/namespaces/stop#\" xmlns:thes=\"http://purl.org/iso25964/skos-thes#\">\r\n\t<begrip about=\"http://ldt/catalogus/dso/id/concept/barrygebouw\">\r\n        <term>barrygebouw</term>\r\n        <definitie>constructie van enige omvang van hout lkj, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct of indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren, met inbegrip van de daarvan deel uitmakende bouwwerkgebonden installaties</definitie>\r\n\t</begrip>\r\n</toestand>\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://catalogus.test.kadaster.nl/api/raadplegen/v0.2/concept",
+			"request": {
+				"url": {
+					"raw": "https://catalogus.test.kadaster.nl/api/raadplegen/v0.2/concept?subject=http%3A%2F%2Fcontent.tst.omgevingswet.overheid.nl%2Fid%2Fconcept%2FAfvoeren",
+					"protocol": "https",
+					"host": [
+						"catalogus",
+						"test",
+						"kadaster",
+						"nl"
+					],
+					"path": [
+						"api",
+						"raadplegen",
+						"v0.2",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "subject",
+							"value": "http%3A%2F%2Fcontent.tst.omgevingswet.overheid.nl%2Fid%2Fconcept%2FAfvoeren",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic Z3JpZHRlYW06SW50ZXJuYWxVc2U=",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<toestand xmlns=\"http://www.overheid.nl/namespaces/stop#\" xmlns:thes=\"http://purl.org/iso25964/skos-thes#\">\r\n\t<begrip about=\"http://ldt/catalogus/dso/id/concept/barrygebouw\">\r\n        <term>barrygebouw</term>\r\n        <definitie>constructie van enige omvang van hout lkj, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct of indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren, met inbegrip van de daarvan deel uitmakende bouwwerkgebonden installaties</definitie>\r\n\t</begrip>\r\n</toestand>\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://catalogus.test.kadaster.nl/api/raadplegen/v0.2/collectie",
+			"request": {
+				"url": {
+					"raw": "https://catalogus.test.kadaster.nl/api/raadplegen/v0.2/collectie?subject=http%3A%2F%2Fcontent.tst.omgevingswet.overheid.nl%2Fid%2Fcollection%2FWater",
+					"protocol": "https",
+					"host": [
+						"catalogus",
+						"test",
+						"kadaster",
+						"nl"
+					],
+					"path": [
+						"api",
+						"raadplegen",
+						"v0.2",
+						"collectie"
+					],
+					"query": [
+						{
+							"key": "subject",
+							"value": "http%3A%2F%2Fcontent.tst.omgevingswet.overheid.nl%2Fid%2Fcollection%2FWater",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic Z3JpZHRlYW06SW50ZXJuYWxVc2U=",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<toestand xmlns=\"http://www.overheid.nl/namespaces/stop#\" xmlns:thes=\"http://purl.org/iso25964/skos-thes#\">\r\n\t<begrip about=\"http://ldt/catalogus/dso/id/concept/barrygebouw\">\r\n        <term>barrygebouw</term>\r\n        <definitie>constructie van enige omvang van hout lkj, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct of indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren, met inbegrip van de daarvan deel uitmakende bouwwerkgebonden installaties</definitie>\r\n\t</begrip>\r\n</toestand>\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
