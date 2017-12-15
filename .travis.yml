@@ -11,4 +11,4 @@ before_script:
   - node_modules/.bin/newman --version
 
 script:
-  - node_modules/.bin/newman run catalogus2.0.postman_collection.json -e environments/catalogus.acceptatie.kadaster.nl.postman_environment.json
+  - node_modules/.bin/newman run catalogus2.0.postman_collection.json -e environments/catalogus.kadaster.nl.postman_environment.json
