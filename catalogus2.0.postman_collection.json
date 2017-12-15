@@ -192,7 +192,7 @@
 			"name": "https://{{domain}}/api/raadplegen/v0.2/concept",
 			"request": {
 				"url": {
-					"raw": "https://{{domain}}/api/raadplegen/v0.2/concept?subject=http%3A%2F%2Fcontent.tst.omgevingswet.overheid.nl%2Fid%2Fconcept%2FAfvoeren",
+					"raw": "https://{{domain}}/api/raadplegen/v0.2/concept?subject=http%3A%2F%2F{{content_domain}}%2Fid%2Fconcept%2FAfvoeren",
 					"protocol": "https",
 					"host": [
 						"{{domain}}"
@@ -206,7 +206,7 @@
 					"query": [
 						{
 							"key": "subject",
-							"value": "http%3A%2F%2Fcontent.tst.omgevingswet.overheid.nl%2Fid%2Fconcept%2FAfvoeren",
+							"value": "http%3A%2F%2F"{{content_domain}}"%2Fid%2Fconcept%2FAfvoeren",
 							"equals": true,
 							"description": ""
 						}
@@ -252,7 +252,7 @@
 			"name": "https://{{domain}}/api/raadplegen/v0.2/collectie",
 			"request": {
 				"url": {
-					"raw": "https://{{domain}}/api/raadplegen/v0.2/collectie?subject=http%3A%2F%2Fcontent.tst.omgevingswet.overheid.nl%2Fid%2Fcollection%2FWater",
+					"raw": "https://{{domain}}/api/raadplegen/v0.2/collectie?subject=http%3A%2F%2F"{{content_domain}}"%2Fid%2Fcollection%2FWater",
 					"protocol": "https",
 					"host": [
 						"{{domain}}"
@@ -266,7 +266,7 @@
 					"query": [
 						{
 							"key": "subject",
-							"value": "http%3A%2F%2Fcontent.tst.omgevingswet.overheid.nl%2Fid%2Fcollection%2FWater",
+							"value": "http%3A%2F%2F"{{content_domain}}"%2Fid%2Fcollection%2FWater",
 							"equals": true,
 							"description": ""
 						}
